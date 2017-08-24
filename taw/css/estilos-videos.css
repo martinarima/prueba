@@ -1,0 +1,210 @@
+body {
+    font-family: "Lato", Arial, sans-serif;
+    padding-top: 75px;
+}
+
+p {
+    font-family: "Lato", Arial, sans-serif;
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.navbar {
+   border-radius: 0px;
+   margin-bottom: 0;
+   min-height: 75px;
+   background: #222;
+}
+
+.navbar-default {
+    border-color: #222;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    margin-top: 30px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding-top: 14px;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar a {
+    font-size: 16px;
+    font-family: "Montserrat", sans serif;
+    font-weight: 200;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+    text-shadow: none;
+}
+
+
+/* ------- GALERIA --------*/
+
+#videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* ------ FOOTER --------*/
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #222;
+    min-height: 150px;
+}
+
+#footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+    height: 40px;
+    letter-spacing: 0.5px;
+}
+
+.footer-legal2 {
+    display: inline-block;
+    color: grey;
+    font-family: "Montserrat", sans serif;
+    font-weight: 200;
+    font-size: 12px;
+    padding-top: 11px;
+    margin-left: 2px;
+}
+
+#footer-legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-1 {
+    color: grey;
+    font-family: "Montserrat", sans serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.main-footer ul li a {
+    color:grey;
+    padding:10px;
+    font-family: "Montserrat", sans serif;
+    font-weight: 200;
+}
+
+.main-footer li::after {
+    content:"I";
+    color:grey;
+    padding:10px;
+}
+
+.main-footer li:last-child::after {
+    content:" ";
+}
+
+
+/* ---- Social Icons ----*/
+
+#social {
+    color: grey;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+
+
+/*------- MEDIA QUERIES CELULAR VERTICAL ---------*/
+
+@media screen and (max-width: 600px) {
+
+body {
+    padding-top: 50px;
+    
+}
+
+.navbar {
+    border-color: #222;
+    min-height: 50px;
+    padding-bottom: 5px;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    margin-top: 2px;
+}
+
+.navbar-brand img {
+    width: 105px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar-toggle {
+    margin-top: : 10px;
+}
+
+/* --------CAROUSEL ---------*/
+
+.carousel-control {
+    visibility: hidden;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+}
+
+.lugar {
+    visibility: hidden;
+}
+
+.fecha {
+    visibility: hidden;
+}
+
+
+/* ------ VIDEOS -------- */
+
+#videos {
+    max-width: 100%;
+}
+
+
+
+/* ------- FOOTER --------- */
+
+.footer-legal2 {
+    line-height: 11px;
+    letter-spacing: none;
+}
+
+
+}

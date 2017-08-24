@@ -1,0 +1,20 @@
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width:  auto;
+    max-height: auto;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+body{
+  font-family: 'Damion', cursive;
+}
+div.pie{
+  margin-bottom: 0px;
+}
